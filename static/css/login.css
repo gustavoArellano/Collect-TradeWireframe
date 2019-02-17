@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+#header {
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+    width: 100hh;
+}
+
+#header h1 {
+    cursor: default;
+    color: orange;
+    
+}
+
+#landingPage {
+    background: linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.795)), url("../images/signInImage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100hh;
+    padding: 100px 20px 500px 20px;
+    text-align: center;
+}
+
+.form p {
+    margin-top: 50px;
+    color: orange;
+}
+
+.form input {
+    height: 20px;
+    width: 250px;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 10pt;
+}
+
+.btn {
+    margin: 50px 0px;
+    display: block;
+    background-color: orange;
+}
+
+.btn a {
+    color: black;
+}

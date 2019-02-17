@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+
+
+#header {
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100hh;
+}
+
+#header h1 {
+    cursor: default;
+    color: orange;
+    
+}
+
+#links {
+    margin-top: 15px;   
+}
+
+#links ul li{
+    display: inline-block;
+}
+
+#links ul li a {
+    padding: 8px;
+    text-decoration: none;
+    color: gray;
+    border-bottom: 0px solid gray; 
+    transition: border 150ms, padding 150ms;
+}
+
+#links ul li i {
+    color: gray;
+    margin: 0px;
+    padding: 0px;
+}
+
+#links ul li a:hover {
+    border-bottom: 3px solid gray;
+    padding-bottom: 5px;
+}
+
+#landingPage {
+    vertical-align: top;
+    text-align: center;
+    padding: 20px 20px 200px 20px;
+    background-color: rgb(39, 38, 38);
+    width: 100%;
+    height: 100%;
+}
+
+#landingPage h1 {
+    color: orange;
+}
+
+#landingPage h4 {
+    margin-top: 40px;
+    color: orange;
+    border: 5px orange solid;
+    background-color: black;
+    box-shadow: 4px 4px 10px black;
+
+}
+
+.form p {
+    margin-top: 50px;
+    color: orange;
+}
+
+.form .diff {
+    margin-top: 0px;
+}
+
+.form input {
+    height: 20px;
+    width: 250px;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 10pt;
+}
+
+textarea {
+    height: 200px;
+}
+
+.btn {
+    margin: 50px 20px;
+    display: block;
+    background-color: orange;
+    width: 200px;
+}
+
+.btn a {
+    color: black;
+    text-decoration: none;
+}

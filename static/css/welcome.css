@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+
+
+#header {
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100hh;
+}
+
+#header h1 {
+    cursor: default;
+    color: orange;
+    
+}
+
+#links {
+    margin-top: 15px;   
+}
+
+#links ul li{
+    display: inline-block;
+}
+
+#links ul li a {
+    padding: 8px;
+    text-decoration: none;
+    color: gray;
+    border-bottom: 0px solid gray; 
+    transition: border 150ms, padding 150ms;
+}
+
+#links ul li i {
+    color: gray;
+    margin: 0px;
+    padding: 0px;
+}
+
+#links ul li a:hover {
+    border-bottom: 3px solid gray;
+    padding-bottom: 5px;
+}
+
+#landingPage {
+    vertical-align: top;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(39, 38, 38);
+    width: 100%;
+    height: 100%;
+}
+
+#landingPage h1 {
+    color: orange;
+}
+
+.btn {
+    margin: 30px 20px;
+}
+
+.btn a {
+    color: black;
+    text-decoration: none;
+}
+
+.post {
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    margin: 30px;
+    width: 25%;
+    border: solid 3px orange;
+    box-shadow: 4px 4px 10px black;
+}
+
+.postInfo {
+    height: 100%;
+    background-color: black;
+    color: orange;
+}
+
+
+.postInfo p a {
+    margin: 5px;
+    color: gray;
+}
+
+.postInfo img {
+    margin-bottom: 15px;
+    width: 100%;
+    height: 300px;
+}

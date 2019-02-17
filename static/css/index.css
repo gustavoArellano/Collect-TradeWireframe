@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+#header {
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100hh;
+}
+
+#header h1 {
+    cursor: default;
+    color: orange;
+    
+}
+
+#links {
+    margin-top: 10px;   
+}
+
+#links ul li{
+    display: inline-block;
+}
+
+#links ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: gray;
+    border-bottom: 0px solid gray; 
+    transition: border 150ms, padding 150ms;
+}
+
+#links ul li a:hover {
+    border-bottom: 3px solid gray;
+    padding-bottom: 5px;
+}
+
+#landingPage {
+    background: linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.795)), url("../images/indexImage1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100hh;
+    padding: 20px;
+    text-align: center;
+}
+
+#landingPage h1 {
+    color: orange;
+    margin: 100px;
+}
+
+#recentPosts {
+    background: linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.795)), url("../images/indexImage3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100hh;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#recentPosts h1 {
+    color: orange;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+#recentPosts h2 {
+    color: orange;
+}
+
+#recentPosts h2 a{
+    color: gray;
+}
+
+.post {
+    display: inline-block;
+    margin: 50px;
+    width: 25%;
+    border: solid 3px orange;
+    box-shadow: 4px 4px 10px black;
+}
+
+.postInfo {
+    background-color: black;
+    color: orange;
+}
+
+
+.postInfo p a {
+    color: gray;
+}
+
+.postInfo img {
+    margin-bottom: 15px;
+    width: 100%;
+    height: 300px;
+}
+

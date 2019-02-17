@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+
+
+#header {
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100hh;
+}
+
+#header h1 {
+    cursor: default;
+    color: orange;
+    
+}
+
+#links {
+    margin-top: 15px;   
+}
+
+#links ul li{
+    display: inline-block;
+}
+
+#links ul li a {
+    padding: 8px;
+    text-decoration: none;
+    color: gray;
+    border-bottom: 0px solid gray; 
+    transition: border 150ms, padding 150ms;
+}
+
+#links ul li i {
+    color: gray;
+    margin: 0px;
+    padding: 0px;
+}
+
+#links ul li a:hover {
+    border-bottom: 3px solid gray;
+    padding-bottom: 5px;
+}
+
+#landingPage {
+    vertical-align: top;
+    text-align: center;
+    padding: 20px 20px 500px 20px;
+    background-color: rgb(39, 38, 38);
+    width: 100%;
+    height: 100vh;
+}
+
+#landingPage h1 {
+    color: orange;
+}
+
+.item {
+    margin: 50px 20px;
+}
+
+.table tr, th, td {
+    color: orange;
+    text-align: center;
+}
+
+.table th, td a {
+    margin-top: 20px;
+    color: orange;
+    text-align: center;
+}
+
+.smallColumn {
+    width: 10px;
+}
